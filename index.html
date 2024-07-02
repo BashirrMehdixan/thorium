@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.css">
+    <!-- Aos animation -->
+    <link rel="stylesheet" href="./assets/plugins/aos/aos.css">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Thorium</title>
+</head>
+
+<body>
+    <div class="position-fixed rounded-5 up-icon">
+        <a href="#" class="w-100 h-100 d-flex align-items-center justify-content-center">
+            <svg width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.6672 11.1616L14.0006 1.82829L2.3339 11.1616" stroke="white" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+    </div>
+
+
+    <ul class="position-fixed z-2 contact-links">
+        <li>
+            <a href="./index.html#contact" class="h-100 w-100 d-flex align-items-center justify-content-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21 19V17.3541C21 16.5363 20.5021 15.8008 19.7428 15.4971L17.7086 14.6835C16.7429 14.2971 15.6422 14.7156 15.177 15.646L15 16C15 16 12.5 15.5 10.5 13.5C8.5 11.5 8 9 8 9L8.35402 8.82299C9.28438 8.35781 9.70285 7.25714 9.31654 6.29136L8.50289 4.25722C8.19916 3.4979 7.46374 3 6.64593 3H5C3.89543 3 3 3.89543 3 5C3 13.8366 10.1634 21 19 21C20.1046 21 21 20.1046 21 19Z"
+                        stroke="#fff" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://whatsapp.com" class="h-100 w-100 d-flex align-items-center justify-content-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 22C17.5229 22 22 17.5228 22 12C22 6.47715 17.5229 2 12 2C6.47718 2 2.00003 6.47715 2.00003 12C2.00003 13.5114 2.33535 14.9446 2.93565 16.229L2.22301 20.6245C2.1135 21.3 2.69954 21.8834 3.37452 21.7709L7.72984 21.045C9.02483 21.6575 10.4724 22 12 22Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round" />
+                    <path
+                        d="M16 15.1111V14.6749C16 14.1331 15.6701 13.6458 15.167 13.4446L14.7005 13.258C14.1789 13.0494 13.5845 13.2753 13.3333 13.7778C13.3333 13.7778 12.2222 13.5556 11.3333 12.6667C10.4444 11.7778 10.2222 10.6667 10.2222 10.6667C10.7247 10.4155 10.9506 9.82105 10.742 9.29949L10.5554 8.83296C10.3542 8.32988 9.86693 8 9.32509 8H8.88889C8.39797 8 8 8.39797 8 8.88889C8 12.8162 11.1838 16 15.1111 16C15.602 16 16 15.602 16 15.1111Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </li>
+    </ul>
+
+    <!-- Navbar start -->
+    <header class="position-relative">
+        <div class="nav-menu text-uppercase">
+            <div class="container">
+                <div class="d-flex align-items-center left-section">
+                    <a href="./index.html" class="logo active" id="header-logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <a href="tel:+99410 215 02 04" class="phone">+99410 215 02 04</a>
+                </div>
+                <nav>
+                    <ul class="d-flex navigation">
+                        <li>
+                            <a href="./catalog.html">kateqoriya</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#services">xidmətlər</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#partners">təmsilçiliklər</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#about">haqqımızda</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#contact">əlaqə</a>
+                        </li>
+                        <li class="d-lg-none">
+                            <form action="">
+                                <div class="input">
+                                    <input type="text" class="search-input" placeholder="Axtarış">
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="d-flex align-items-center justify-content-end right-section">
+                    <div class="align-items-center search">
+                        <div class="btn search-btn icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </svg>
+                        </div>
+                        <form action="">
+                            <div class="desk-input input">
+                                <input type="text" placeholder="Axtarış" class="nav-search">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="language">
+                        <div class="d-flex align-items-center current">
+                            <span>az</span>
+                            <div class="icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 10L12 14L17 10" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <a hre="#" class="d-flex align-items-center lang">en</a>
+                            <a href="#" class="d-flex align-items-center lang active">az</a>
+                            <a href="#" class="d-flex align-items-center lang">ru</a>
+                        </div>
+                    </div>
+                    <div class="align-items-center mobile-menu">
+                        <div class="hamburger">
+                            <button class="btn open-nav icon">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 12.8213H17" stroke="white" stroke-width="1.5" stroke-linecap="round">
+                                    </path>
+                                    <path d="M4 17.8213L20 17.8213" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round">
+                                    </path>
+                                    <path d="M4 7.82129L20 7.82129" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="btn close-nav icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.2426 7.75738L7.75732 16.2427M16.2426 16.2426L7.75732 7.75732"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar end -->
+
+    <main>
+
+        <!-- Banner section start -->
+        <section class="position-relative banner-section">
+            <div class="swiper bannerSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="position-relative d-flex align-items-center banner-item"
+                            style="background-image: url(./assets/images/banner/banner-1.png);">
+                            <div class="position-absolute overlay"></div>
+                            <div class="container z-1">
+                                <div class="row">
+                                    <div class="col-12 col-lg-9">
+                                        <div class="banner-content text-light">
+                                            <h2 class="display-4 fw-semibold banner-title">
+                                                УРК-PM5000B radiasiya nəzarət qurğusu
+                                            </h2>
+                                            <p class="inner-text py-2">
+                                                Radioaktiv materialların hərəkətinə nəzarəti təmin etmək üçün nəzərdə
+                                                tutulmuş həssaslığı yüksək olan stasionar
+                                                sistemlərdir.
+                                            </p>
+                                            <a href="./detail.html" class="btn btn-blue mt-3 px-5">Daha ətraflı</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="position-relative d-flex align-items-center banner-item"
+                            style="background-image: url(./assets/images/banner/PM5000Р_1\ 1.png);">
+                            <div class="position-absolute overlay"></div>
+                            <div class="container z-1">
+                                <div class="row">
+                                    <div class="col-12 col-lg-9">
+                                        <div class="banner-content text-light">
+                                            <h2 class="display-4 fw-semibold banner-title">
+                                                УРК-PM5000P radiasiya nəzarət qurğusu
+                                            </h2>
+                                            <p class="inner-text py-2">
+                                                Hava limanlarında, qatar stansiyalarında və nəzarət buraxılış
+                                                məntəqələrində
+                                                geniş istifadə olunur
+                                            </p>
+                                            <a href="./detail.html" class="btn btn-blue mt-3 px-5">Daha ətraflı</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="position-relative d-flex align-items-center banner-item"
+                            style="background-image: url(./assets/images/banner/PM1401MA_nature\ 2.png);">
+                            <div class="position-absolute overlay"></div>
+                            <div class="container z-1">
+                                <div class="row">
+                                    <div class="col-12 col-lg-9">
+                                        <div class="banner-content text-light">
+                                            <h2 class="display-4 fw-semibold banner-title">
+                                                ИСП-РМ1401МА axtarış ölçmə cihazı-siqnalizator
+                                            </h2>
+                                            <p class="inner-text py-2">
+                                                Radioaktiv materialların aşkarlanması və lokallaşdırılması üçün nəzərdə
+                                                tutulan həssaslığı yüksək olan kompakt axtarış
+                                                cihazı
+                                            </p>
+                                            <a href="./detail.html" class="btn btn-blue mt-3 px-5">Daha ətraflı</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Banner section end -->
+
+        <!-- Home Category section start -->
+        <section class="home-category-section bg-img py-110" id="category">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="display-6 fw-medium mb-5">
+                        Kateqoriyalar
+                    </h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="./catalog.html">
+                            <div class="category-item text-center me-0 me-md-2" data-aos="fade-right"
+                                data-aos-duration="2000">
+                                <div class="d-flex align-items-center category-img mx-auto">
+                                    <img src="./assets/images/category/PM1611_main1.png" alt="">
+                                </div>
+                                <div class="category-info pt-4">
+                                    <h3 class="fs-5 category-title">
+                                        Rentgen və qamma şüalanma dozimetrləri
+                                    </h3>
+                                    <span class="category-count">5 Məhsul</span>
+                                </div>
+                                <div class="link-icon">
+                                    <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M50.0002 34.2061L66.6668 50.8726M66.6668 50.8726L50.0002 67.5394M66.6668 50.8726L8.3335 50.8726"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M37.5 76.8948C43.2067 81.4694 50.4504 84.2057 58.3333 84.2057C76.7428 84.2057 91.6666 69.2819 91.6666 50.8724C91.6666 32.4629 76.7428 17.5391 58.3333 17.5391C50.4504 17.5391 43.2067 20.2754 37.5 24.85"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="./catalog.html">
+                            <div class="category-item text-center me-0 me-md-2" data-aos="fade-right"
+                                data-aos-duration="2000">
+                                <div class="d-flex align-items-center category-img mx-auto">
+                                    <img src="./assets/images/category/PM1611_main2.png" alt="">
+                                </div>
+                                <div class="category-info pt-4">
+                                    <h3 class="fs-5 category-title">
+                                        Radiasiya axtarış cihazları
+                                    </h3>
+                                    <span class="category-count">5 Məhsul</span>
+                                </div>
+                                <div class="link-icon">
+                                    <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M50.0002 34.2061L66.6668 50.8726M66.6668 50.8726L50.0002 67.5394M66.6668 50.8726L8.3335 50.8726"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M37.5 76.8948C43.2067 81.4694 50.4504 84.2057 58.3333 84.2057C76.7428 84.2057 91.6666 69.2819 91.6666 50.8724C91.6666 32.4629 76.7428 17.5391 58.3333 17.5391C50.4504 17.5391 43.2067 20.2754 37.5 24.85"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="./catalog.html">
+                            <div class="category-item text-center me-0 me-md-2" data-aos="fade-right"
+                                data-aos-duration="2000">
+                                <div class="d-flex align-items-center category-img mx-auto">
+                                    <img src="./assets/images/category/PM5000B-10.png" alt="">
+                                </div>
+                                <div class="category-info pt-4">
+                                    <h3 class="fs-5 category-title">
+                                        Radiasiya portal monitorları
+                                    </h3>
+                                    <span class="category-count">5 Məhsul</span>
+                                </div>
+                                <div class="link-icon">
+                                    <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M50.0002 34.2061L66.6668 50.8726M66.6668 50.8726L50.0002 67.5394M66.6668 50.8726L8.3335 50.8726"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M37.5 76.8948C43.2067 81.4694 50.4504 84.2057 58.3333 84.2057C76.7428 84.2057 91.6666 69.2819 91.6666 50.8724C91.6666 32.4629 76.7428 17.5391 58.3333 17.5391C50.4504 17.5391 43.2067 20.2754 37.5 24.85"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="./catalog.html">
+                            <div class="category-item text-center me-0 me-md-2" data-aos="fade-right"
+                                data-aos-duration="2000">
+                                <div class="d-flex align-items-center category-img mx-auto">
+                                    <img src="./assets/images/category/PM520-08.png" alt="">
+                                </div>
+                                <div class="category-info pt-4">
+                                    <h3 class="fs-5 category-title">
+                                        Personalın doza nəzarət proqramı
+                                    </h3>
+                                    <span class="category-count">5 Məhsul</span>
+                                </div>
+                                <div class="link-icon">
+                                    <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M50.0002 34.2061L66.6668 50.8726M66.6668 50.8726L50.0002 67.5394M66.6668 50.8726L8.3335 50.8726"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M37.5 76.8948C43.2067 81.4694 50.4504 84.2057 58.3333 84.2057C76.7428 84.2057 91.6666 69.2819 91.6666 50.8724C91.6666 32.4629 76.7428 17.5391 58.3333 17.5391C50.4504 17.5391 43.2067 20.2754 37.5 24.85"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="./catalog.html">
+                            <div class="category-item text-center me-0 me-md-2" data-aos="fade-right"
+                                data-aos-duration="2000">
+                                <div class="d-flex align-items-center category-img mx-auto">
+                                    <img src="./assets/images/category/PM5000B-11.png" alt="">
+                                </div>
+                                <div class="category-info pt-4">
+                                    <h3 class="fs-5 category-title">
+                                        Personalın doza nəzarət proqramı
+                                    </h3>
+                                    <span class="category-count">5 Məhsul</span>
+                                </div>
+                                <div class="link-icon">
+                                    <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M50.0002 34.2061L66.6668 50.8726M66.6668 50.8726L50.0002 67.5394M66.6668 50.8726L8.3335 50.8726"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M37.5 76.8948C43.2067 81.4694 50.4504 84.2057 58.3333 84.2057C76.7428 84.2057 91.6666 69.2819 91.6666 50.8724C91.6666 32.4629 76.7428 17.5391 58.3333 17.5391C50.4504 17.5391 43.2067 20.2754 37.5 24.85"
+                                            stroke="#0876A4" stroke-width="1.5" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Category section end -->
+
+        <!-- About section start -->
+        <div class="about-section bg-img py-110 bg-img" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="left-content mb-5 mb-lg-0">
+                            <div class="section-head">
+                                <h3 class="display-6 fw-medium mb-5">
+                                    Haqqımızda
+                                </h3>
+                            </div>
+                            <p class="inner-text">
+                                “THORİUM” MMC Belarusiyanın “Radmetron”, “Globaltest” və “CTM Engineering” şirkətlərinin
+                                Azərbaycan Respublikasında
+                                rəsmi təmsilçisidir. Şirkətimiz ionlaşdırıcı şüalanmanı qeydə alan və ölçən cihazların
+                                idxalını, satışını və təmirini
+                                həyata keçirir. Eyni zamanda ərazilərdə, müəssisə və təşkilatlarda radioloji və
+                                radioekoloji
+                                monitorinq xidmətləri üzrə
+                                fəaliyyət göstərir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="section-img">
+                            <img src="./assets/images/background/about.png" class="w-100 h-100 rounded-2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About section end -->
+
+        <!-- Services section start -->
+        <section class="position-relative services-section py-110" id="services">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="display-6 fw-medium text-capitalize mb-5 " data-aos="fade-right"
+                        data-aos-duration="2000">
+                        Xidmətlərimiz
+                    </h3>
+                </div>
+            </div>
+            <div class="position-static swiper servicesSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="position-relative d-flex align-items-center services-item"
+                            style="background-image: url(./assets/images/services/PM1401K3_PM1603.png);">
+                            <div class="position-absolute overlay"></div>
+                            <div class="container z-1">
+                                <div class="banner-content text-light">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <h2 class="display-3 fw-semibold banner-title" data-aos="fade-right"
+                                                data-aos-duration="2000">
+                                                УРК-PM5000B radiasiya nəzarət qurğusu
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <p class="inner-text" data-aos="fade-right" data-aos-duration="2000">
+                                            Radioaktiv materialların hərəkətinə nəzarəti təmin etmək üçün nəzərdə
+                                            tutulmuş həssaslığı yüksək olan stasionar
+                                            sistemlərdir.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="position-relative d-flex align-items-center services-item"
+                            style="background-image: url(./assets/images/services/banner-2.png);">
+                            <div class="position-absolute overlay"></div>
+                            <div class="container z-1">
+                                <div class="banner-content text-light">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <h2 class="display-3 fw-semibold banner-title">
+                                                Cihaz və avadanlıqların təmiri
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <p class="inner-text">
+                                            İonlaşdırıcı şüalanmanı ölçən, qeydə alan cihaz və avadanlıqların təmiri
+                                            xidməti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- Services section end -->
+
+        <!-- Partners section start -->
+        <section class="partners-section py-110" id="partners">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="display-6 fw-semibold text-capitalize mb-5" data-aos="fade-right"
+                        data-aos-duration="2000">
+                        Təmsilçiliklər
+                    </h3>
+                </div>
+            </div>
+            <div class="swiper partnersSwiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/radmetron.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/Globaltest_logo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/ctm-enginering-logo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/radmetron.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/Globaltest_logo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="./index.html" class="d-flex align-items-center mx-auto">
+                            <div class="partner-item" data-aos="fade-right" data-aos-duration="2000">
+                                <img src="./assets/images/representations/ctm-enginering-logo.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Partners section end  -->
+
+
+        <!-- Gallery section starts -->
+        <section class="video-gallery-section py-110 bg-img" id="gallery">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="display-6 fw-semibold text-capitalize mb-5" data-aos="fade-right"
+                        data-aos-duration="2000">
+                        Video Qalereya
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="position-relative gallery-item me-0 me-md-2" data-aos="fade-right"
+                            data-aos-duration="2000">
+                            <video autoplay muted loop
+                                poster="./assets/images/video-cover/Video2.png">
+                                <source src="" type="video/mp4">
+                            </video>
+                            <button class="btn btn-play">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22 12.5C22 18.0228 17.5228 22.5 12 22.5C6.47715 22.5 2 18.0228 2 12.5C2 6.97715 6.47715 2.5 12 2.5C15.2712 2.5 18.1755 4.07069 20 6.49902L21 3.5M14.3167 11.1584L11.1708 9.58541C10.1735 9.08673 9 9.81198 9 10.9271V14.0729C9 15.188 10.1735 15.9133 11.1708 15.4146L14.3167 13.8416C15.4223 13.2889 15.4223 11.7111 14.3167 11.1584Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="position-relative gallery-item me-0 me-md-2" data-aos="fade-right"
+                            data-aos-duration="2000">
+                            <video autoplay muted loop
+                                poster="./assets/images/video-cover/Video2.png">
+                                <source src="" type="video/mp4">
+                            </video>
+                            <button class="btn btn-play">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22 12.5C22 18.0228 17.5228 22.5 12 22.5C6.47715 22.5 2 18.0228 2 12.5C2 6.97715 6.47715 2.5 12 2.5C15.2712 2.5 18.1755 4.07069 20 6.49902L21 3.5M14.3167 11.1584L11.1708 9.58541C10.1735 9.08673 9 9.81198 9 10.9271V14.0729C9 15.188 10.1735 15.9133 11.1708 15.4146L14.3167 13.8416C15.4223 13.2889 15.4223 11.7111 14.3167 11.1584Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="position-relative gallery-item me-0 me-md-2" data-aos="fade-right"
+                            data-aos-duration="2000">
+                            <video autoplay muted loop
+                                poster="./assets/images/video-cover/Video2.png">
+                                <source src="" type="video/mp4">
+                            </video>
+                            <button class="btn btn-play">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22 12.5C22 18.0228 17.5228 22.5 12 22.5C6.47715 22.5 2 18.0228 2 12.5C2 6.97715 6.47715 2.5 12 2.5C15.2712 2.5 18.1755 4.07069 20 6.49902L21 3.5M14.3167 11.1584L11.1708 9.58541C10.1735 9.08673 9 9.81198 9 10.9271V14.0729C9 15.188 10.1735 15.9133 11.1708 15.4146L14.3167 13.8416C15.4223 13.2889 15.4223 11.7111 14.3167 11.1584Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery section end -->
+
+        <!-- Contact section start -->
+        <section class="contact-section pt-5" id="contact">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="display-6 fw-medium mb-5">
+                        Bizimlə əlaqə
+                    </h3>
+                </div>
+            </div>
+            <div class="bg-gray">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <div class="mb-5 left-content">
+                                <div class="row flex-column">
+                                    <div class="col-12 col-lg-6">
+                                        <h4 class="display-5 fw-medium text-uppercase mb-5 section-title">
+                                            THORIUM
+                                        </h4>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <ul class="contact-list">
+                                            <li class="d-flex mb-3">
+                                                <span class="me-3 fs-5">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="12" cy="10.9951" r="3" stroke="black"
+                                                            stroke-width="1.5" />
+                                                        <path
+                                                            d="M21 10.884C21 15.7932 15.375 21.9951 12 21.9951C8.625 21.9951 3 15.7932 3 10.884C3 5.97481 7.02944 1.99512 12 1.99512C16.9706 1.99512 21 5.97481 21 10.884Z"
+                                                            stroke="black" stroke-width="1.5" />
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    SPORT PLAZA
+                                                    Heydər Əliyev 115
+                                                    Bakı, Azərbaycan, AZ 1029
+                                                </span>
+                                            </li>
+                                            <li class="d-flex mb-3">
+                                                <span class="me-3 fs-5">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M15 15.9951L14.8529 16.7306C15.1846 16.7969 15.5196 16.633 15.6708 16.3305L15 15.9951ZM8 8.99512L7.66459 8.3243C7.36208 8.47555 7.19824 8.81056 7.26456 9.1422L8 8.99512ZM8.35402 8.81811L8.68943 9.48893L8.68943 9.48893L8.35402 8.81811ZM9.31654 6.28647L10.0129 6.00793L9.31654 6.28647ZM8.50289 4.25234L7.80653 4.53088L8.50289 4.25234ZM19.7428 15.4922L19.4642 16.1886L19.7428 15.4922ZM17.7086 14.6786L17.9872 13.9822H17.9872L17.7086 14.6786ZM15.177 15.6411L15.8478 15.9765V15.9765L15.177 15.6411ZM16.25 10.9951C16.25 11.4093 16.5858 11.7451 17 11.7451C17.4142 11.7451 17.75 11.4093 17.75 10.9951H16.25ZM16.6955 9.46438L17.3884 9.17737L16.6955 9.46438ZM14.5307 7.2996L14.8177 6.60669L14.5307 7.2996ZM13 6.24512C12.5858 6.24512 12.25 6.5809 12.25 6.99512C12.25 7.40933 12.5858 7.74512 13 7.74512V6.24512ZM20.25 10.9951C20.25 11.4093 20.5858 11.7451 21 11.7451C21.4142 11.7451 21.75 11.4093 21.75 10.9951H20.25ZM20.391 7.93365L21.0839 7.64664L20.391 7.93365ZM16.0615 3.60408L16.3485 2.91117V2.91117L16.0615 3.60408ZM13 2.24512C12.5858 2.24512 12.25 2.5809 12.25 2.99512C12.25 3.40933 12.5858 3.74512 13 3.74512V2.24512ZM20.25 17.3492V18.9951H21.75V17.3492H20.25ZM5 3.74512H6.64593V2.24512H5V3.74512ZM15 15.9951C15.1471 15.2597 15.1473 15.2597 15.1475 15.2598C15.1476 15.2598 15.1477 15.2598 15.1479 15.2598C15.1481 15.2599 15.1483 15.2599 15.1484 15.2599C15.1487 15.26 15.1488 15.26 15.1488 15.26C15.1488 15.26 15.1482 15.2599 15.147 15.2597C15.1447 15.2592 15.14 15.2582 15.1331 15.2566C15.1193 15.2536 15.0967 15.2485 15.0659 15.241C15.0044 15.226 14.9104 15.2017 14.7898 15.1662C14.5482 15.0952 14.2016 14.9798 13.7954 14.8058C12.9796 14.4561 11.9439 13.8784 11.0303 12.9648L9.96967 14.0254C11.0561 15.1119 12.2704 15.7841 13.2046 16.1845C13.6734 16.3854 14.0768 16.5201 14.3665 16.6053C14.5115 16.6479 14.6285 16.6783 14.7114 16.6985C14.7529 16.7086 14.7859 16.7161 14.8097 16.7214C14.8217 16.724 14.8313 16.7261 14.8385 16.7276C14.8421 16.7283 14.8451 16.729 14.8475 16.7295C14.8487 16.7297 14.8498 16.7299 14.8507 16.7301C14.8511 16.7302 14.8515 16.7303 14.8519 16.7304C14.8521 16.7304 14.8523 16.7304 14.8524 16.7305C14.8527 16.7305 14.8529 16.7306 15 15.9951ZM11.0303 12.9648C10.1167 12.0512 9.53901 11.0155 9.18936 10.1997C9.01527 9.79347 8.89996 9.44696 8.8289 9.20537C8.79342 9.08474 8.76912 8.99076 8.75414 8.92918C8.74666 8.89841 8.74151 8.87577 8.73847 8.86199C8.73695 8.8551 8.73595 8.85044 8.73546 8.84808C8.73521 8.8469 8.73509 8.8463 8.73508 8.84629C8.73508 8.84628 8.73511 8.84642 8.73517 8.84671C8.7352 8.84686 8.73524 8.84704 8.73528 8.84726C8.7353 8.84737 8.73534 8.84756 8.73535 8.84762C8.73539 8.84782 8.73544 8.84803 8 8.99512C7.26456 9.1422 7.26461 9.14244 7.26466 9.14268C7.26468 9.14277 7.26473 9.14302 7.26477 9.1432C7.26484 9.14358 7.26492 9.14399 7.26501 9.14444C7.2652 9.14533 7.26541 9.14638 7.26566 9.14759C7.26615 9.14999 7.26677 9.15301 7.26753 9.15662C7.26905 9.16385 7.27111 9.17346 7.27374 9.18537C7.279 9.20919 7.28655 9.24222 7.29664 9.28371C7.31682 9.36666 7.34721 9.48362 7.38985 9.62862C7.47504 9.91827 7.60973 10.3218 7.81064 10.7906C8.21099 11.7247 8.88325 12.939 9.96967 14.0254L11.0303 12.9648ZM8.33541 9.66594L8.68943 9.48893L8.01861 8.14729L7.66459 8.3243L8.33541 9.66594ZM10.0129 6.00793L9.19925 3.97379L7.80653 4.53088L8.62018 6.56502L10.0129 6.00793ZM20.0213 14.7959L17.9872 13.9822L17.4301 15.3749L19.4642 16.1886L20.0213 14.7959ZM14.5062 15.3057L14.3292 15.6597L15.6708 16.3305L15.8478 15.9765L14.5062 15.3057ZM17.9872 13.9822C16.6592 13.451 15.1458 14.0264 14.5062 15.3057L15.8478 15.9765C16.1386 15.395 16.8265 15.1335 17.4301 15.3749L17.9872 13.9822ZM8.68943 9.48893C9.96868 8.84931 10.5441 7.33588 10.0129 6.00793L8.62018 6.56502C8.86163 7.16863 8.60008 7.85655 8.01861 8.14729L8.68943 9.48893ZM6.64593 3.74512C7.15706 3.74512 7.6167 4.05631 7.80653 4.53088L9.19925 3.97379C8.78162 2.92973 7.77042 2.24512 6.64593 2.24512V3.74512ZM21.75 17.3492C21.75 16.2247 21.0654 15.2135 20.0213 14.7959L19.4642 16.1886C19.9388 16.3784 20.25 16.8381 20.25 17.3492H21.75ZM19 20.2451C10.5777 20.2451 3.75 13.4175 3.75 4.99512H2.25C2.25 14.2459 9.74923 21.7451 19 21.7451V20.2451ZM19 21.7451C20.5188 21.7451 21.75 20.5139 21.75 18.9951H20.25C20.25 19.6855 19.6904 20.2451 19 20.2451V21.7451ZM3.75 4.99512C3.75 4.30476 4.30964 3.74512 5 3.74512V2.24512C3.48122 2.24512 2.25 3.47633 2.25 4.99512H3.75ZM17.75 10.9951C17.75 10.3713 17.6271 9.75367 17.3884 9.17737L16.0026 9.7514C16.1659 10.1457 16.25 10.5683 16.25 10.9951H17.75ZM17.3884 9.17737C17.1497 8.60107 16.7998 8.07744 16.3588 7.63636L15.2981 8.69702C15.5999 8.99881 15.8393 9.35709 16.0026 9.7514L17.3884 9.17737ZM16.3588 7.63636C15.9177 7.19528 15.394 6.8454 14.8177 6.60669L14.2437 7.99251C14.638 8.15584 14.9963 8.39523 15.2981 8.69702L16.3588 7.63636ZM14.8177 6.60669C14.2415 6.36798 13.6238 6.24512 13 6.24512V7.74512C13.4268 7.74512 13.8494 7.82918 14.2437 7.99251L14.8177 6.60669ZM21.75 10.9951C21.75 9.84605 21.5237 8.70824 21.0839 7.64664L19.6981 8.22066C20.0625 9.10027 20.25 10.043 20.25 10.9951H21.75ZM21.0839 7.64664C20.6442 6.58504 19.9997 5.62045 19.1872 4.80793L18.1265 5.86859C18.7997 6.54182 19.3338 7.34105 19.6981 8.22066L21.0839 7.64664ZM19.1872 4.80793C18.3747 3.99542 17.4101 3.3509 16.3485 2.91117L15.7745 4.29699C16.6541 4.66134 17.4533 5.19537 18.1265 5.86859L19.1872 4.80793ZM16.3485 2.91117C15.2869 2.47144 14.1491 2.24512 13 2.24512V3.74512C13.9521 3.74512 14.8948 3.93264 15.7745 4.29699L16.3485 2.91117Z"
+                                                            fill="black" />
+                                                    </svg>
+                                                </span>
+                                                <a href="tel:+99410 215 02 04">+99410 215 02 04</a>
+                                            </li>
+                                            <li class="d-flex align-items-center mb-3">
+                                                <span class="me-3 fs-5">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="2" y="2.99512" width="20" height="18" rx="4"
+                                                            stroke="black" stroke-width="1.5" />
+                                                        <path
+                                                            d="M2 6.99512L9.50122 12.9961C10.9621 14.1648 13.0379 14.1648 14.4988 12.9961L22 6.99512"
+                                                            stroke="black" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                                <a href="mailto:info@thorium.az">info@thorium.az</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <form>
+                                <div class="contact-form">
+                                    <div class="form-group mb-4">
+                                        <label for="name" class="mb-2">Ad</label>
+                                        <input type="text" class="form-control custom-form" id="name">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label for="phone" class="mb-2">Telefon</label>
+                                        <input type="text" class="form-control custom-form" id="phone">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label for="email" class="mb-2">E-poçt</label>
+                                        <input type="email" class="form-control custom-form" id="email">
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label for="message">Mesaj</label>
+                                        <textarea class="form-control custom-form" id="message"></textarea>
+                                    </div>
+                                    <button class="btn btn-blue w-100">Sorğu göndər</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section end -->
+
+    </main>
+
+    <!-- Footer starts -->
+    <footer class="py-110 pb-1">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-start">
+                <div class="col-12 col-md-6 col-lg-1">
+                    <div class="footer-logo mb-5 mb-lg-0 mx-auto mx-md-0">
+                        <a href="./index.html">
+                            <img src="./assets/images/logo.png" class="w-100" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="fs-4 fw-medium text-light">
+                        Əlaqə
+                    </h5>
+                    <ul class="text-light contact-list pt-3 pt-lg-5">
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 16.7666L14.8529 17.502C15.1846 17.5684 15.5196 17.4045 15.6708 17.102L15 16.7666ZM8 9.7666L7.66459 9.09578C7.36208 9.24703 7.19824 9.58204 7.26456 9.91369L8 9.7666ZM8.35402 9.58959L8.68943 10.2604L8.68943 10.2604L8.35402 9.58959ZM9.31654 7.05796L10.0129 6.77942L9.31654 7.05796ZM8.50289 5.02382L7.80653 5.30236L8.50289 5.02382ZM19.7428 16.2637L19.4642 16.9601L19.7428 16.2637ZM17.7086 15.4501L17.9872 14.7537H17.9872L17.7086 15.4501ZM15.177 16.4126L15.8478 16.748V16.748L15.177 16.4126ZM16.25 11.7666C16.25 12.1808 16.5858 12.5166 17 12.5166C17.4142 12.5166 17.75 12.1808 17.75 11.7666H16.25ZM16.6955 10.2359L17.3884 9.94885L16.6955 10.2359ZM14.5307 8.07108L14.8177 7.37817L14.5307 8.07108ZM13 7.0166C12.5858 7.0166 12.25 7.35239 12.25 7.7666C12.25 8.18082 12.5858 8.5166 13 8.5166V7.0166ZM20.25 11.7666C20.25 12.1808 20.5858 12.5166 21 12.5166C21.4142 12.5166 21.75 12.1808 21.75 11.7666H20.25ZM20.391 8.70513L21.0839 8.41812L20.391 8.70513ZM16.0615 4.37557L16.3485 3.68266V3.68266L16.0615 4.37557ZM13 3.0166C12.5858 3.0166 12.25 3.35239 12.25 3.7666C12.25 4.18082 12.5858 4.5166 13 4.5166V3.0166ZM20.25 18.1207V19.7666H21.75V18.1207H20.25ZM5 4.5166H6.64593V3.0166H5V4.5166ZM15 16.7666C15.1471 16.0312 15.1473 16.0312 15.1475 16.0312C15.1476 16.0313 15.1477 16.0313 15.1479 16.0313C15.1481 16.0314 15.1483 16.0314 15.1484 16.0314C15.1487 16.0315 15.1488 16.0315 15.1488 16.0315C15.1488 16.0315 15.1482 16.0314 15.147 16.0311C15.1447 16.0306 15.14 16.0297 15.1331 16.0281C15.1193 16.0251 15.0967 16.0199 15.0659 16.0125C15.0044 15.9975 14.9104 15.9732 14.7898 15.9377C14.5482 15.8666 14.2016 15.7513 13.7954 15.5772C12.9796 15.2276 11.9439 14.6499 11.0303 13.7363L9.96967 14.7969C11.0561 15.8833 12.2704 16.5556 13.2046 16.956C13.6734 17.1569 14.0768 17.2916 14.3665 17.3768C14.5115 17.4194 14.6285 17.4498 14.7114 17.47C14.7529 17.4801 14.7859 17.4876 14.8097 17.4929C14.8217 17.4955 14.8313 17.4976 14.8385 17.4991C14.8421 17.4998 14.8451 17.5005 14.8475 17.5009C14.8487 17.5012 14.8498 17.5014 14.8507 17.5016C14.8511 17.5017 14.8515 17.5018 14.8519 17.5018C14.8521 17.5019 14.8523 17.5019 14.8524 17.5019C14.8527 17.502 14.8529 17.502 15 16.7666ZM11.0303 13.7363C10.1167 12.8227 9.53901 11.787 9.18936 10.9712C9.01527 10.565 8.89996 10.2184 8.8289 9.97685C8.79342 9.85622 8.76912 9.76225 8.75414 9.70067C8.74666 9.66989 8.74151 9.64725 8.73847 9.63348C8.73695 9.62659 8.73595 9.62192 8.73546 9.61956C8.73521 9.61838 8.73509 9.61778 8.73508 9.61777C8.73508 9.61776 8.73511 9.61791 8.73517 9.6182C8.7352 9.61834 8.73524 9.61852 8.73528 9.61874C8.7353 9.61885 8.73534 9.61905 8.73535 9.6191C8.73539 9.6193 8.73544 9.61951 8 9.7666C7.26456 9.91369 7.26461 9.91392 7.26466 9.91416C7.26468 9.91425 7.26473 9.9145 7.26477 9.91469C7.26484 9.91506 7.26492 9.91547 7.26501 9.91592C7.2652 9.91682 7.26541 9.91787 7.26566 9.91907C7.26615 9.92148 7.26677 9.92449 7.26753 9.92811C7.26905 9.93533 7.27111 9.94494 7.27374 9.95686C7.279 9.98068 7.28655 10.0137 7.29664 10.0552C7.31682 10.1381 7.34721 10.2551 7.38985 10.4001C7.47504 10.6898 7.60973 11.0932 7.81064 11.562C8.21099 12.4962 8.88325 13.7105 9.96967 14.7969L11.0303 13.7363ZM8.33541 10.4374L8.68943 10.2604L8.01861 8.91877L7.66459 9.09578L8.33541 10.4374ZM10.0129 6.77942L9.19925 4.74528L7.80653 5.30236L8.62018 7.3365L10.0129 6.77942ZM20.0213 15.5674L17.9872 14.7537L17.4301 16.1464L19.4642 16.9601L20.0213 15.5674ZM14.5062 16.0772L14.3292 16.4312L15.6708 17.102L15.8478 16.748L14.5062 16.0772ZM17.9872 14.7537C16.6592 14.2225 15.1458 14.7979 14.5062 16.0772L15.8478 16.748C16.1386 16.1665 16.8265 15.905 17.4301 16.1464L17.9872 14.7537ZM8.68943 10.2604C9.96868 9.62079 10.5441 8.10736 10.0129 6.77942L8.62018 7.3365C8.86163 7.94011 8.60008 8.62803 8.01861 8.91877L8.68943 10.2604ZM6.64593 4.5166C7.15706 4.5166 7.6167 4.82779 7.80653 5.30236L9.19925 4.74528C8.78162 3.70122 7.77042 3.0166 6.64593 3.0166V4.5166ZM21.75 18.1207C21.75 16.9962 21.0654 15.985 20.0213 15.5674L19.4642 16.9601C19.9388 17.1499 20.25 17.6095 20.25 18.1207H21.75ZM19 21.0166C10.5777 21.0166 3.75 14.1889 3.75 5.7666H2.25C2.25 15.0174 9.74923 22.5166 19 22.5166V21.0166ZM19 22.5166C20.5188 22.5166 21.75 21.2854 21.75 19.7666H20.25C20.25 20.457 19.6904 21.0166 19 21.0166V22.5166ZM3.75 5.7666C3.75 5.07625 4.30964 4.5166 5 4.5166V3.0166C3.48122 3.0166 2.25 4.24782 2.25 5.7666H3.75ZM17.75 11.7666C17.75 11.1428 17.6271 10.5252 17.3884 9.94885L16.0026 10.5229C16.1659 10.9172 16.25 11.3398 16.25 11.7666H17.75ZM17.3884 9.94885C17.1497 9.37256 16.7998 8.84892 16.3588 8.40784L15.2981 9.4685C15.5999 9.77029 15.8393 10.1286 16.0026 10.5229L17.3884 9.94885ZM16.3588 8.40784C15.9177 7.96677 15.394 7.61688 14.8177 7.37817L14.2437 8.76399C14.638 8.92732 14.9963 9.16671 15.2981 9.4685L16.3588 8.40784ZM14.8177 7.37817C14.2415 7.13946 13.6238 7.0166 13 7.0166V8.5166C13.4268 8.5166 13.8494 8.60067 14.2437 8.76399L14.8177 7.37817ZM21.75 11.7666C21.75 10.6175 21.5237 9.47972 21.0839 8.41812L19.6981 8.99215C20.0625 9.87176 20.25 10.8145 20.25 11.7666H21.75ZM21.0839 8.41812C20.6442 7.35652 19.9997 6.39193 19.1872 5.57942L18.1265 6.64008C18.7997 7.3133 19.3338 8.11254 19.6981 8.99215L21.0839 8.41812ZM19.1872 5.57942C18.3747 4.7669 17.4101 4.12238 16.3485 3.68266L15.7745 5.06847C16.6541 5.43282 17.4533 5.96685 18.1265 6.64008L19.1872 5.57942ZM16.3485 3.68266C15.2869 3.24293 14.1491 3.0166 13 3.0166V4.5166C13.9521 4.5166 14.8948 4.70413 15.7745 5.06847L16.3485 3.68266Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <a href="tel:+99410 215 02 04" class="opacity">+99410 215 02 04</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-1">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3.7666" width="20" height="18" rx="4" stroke="white"
+                                        stroke-width="1.5" />
+                                    <path
+                                        d="M2 7.7666L9.50122 13.7676C10.9621 14.9363 13.0379 14.9363 14.4988 13.7676L22 7.7666"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <a href="mailto:info@thorium.az" class="opacity">info@thorium.az</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="11.7666" r="3" stroke="white" stroke-width="1.5" />
+                                    <path
+                                        d="M21 11.6555C21 16.5647 15.375 22.7666 12 22.7666C8.625 22.7666 3 16.5647 3 11.6555C3 6.74629 7.02944 2.7666 12 2.7666C16.9706 2.7666 21 6.74629 21 11.6555Z"
+                                        stroke="white" stroke-width="1.5" />
+                                </svg>
+                            </span>
+                            <span class="opacity">
+                                SPORT PLAZA
+                                Heydər Əliyev 115
+                                Bakı, Azərbaycan, AZ 1029
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="fs-4 fw-medium text-light mt-5 mt-lg-0">
+                        Sürətli keçid
+                    </h5>
+                    <ul class="text-light opacity-75 pt-3 pt-lg-5 footer-menu">
+                        <li class="mb-2">
+                            <a href="./index.html">Ana səhifə</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./catalog.html">Kataloq</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#services">Xidmətlər</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#partners">Təmsilçiliklər</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#about">Haqqımızda</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./index.html#contact">Əlaqə</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h5 class="fs-4 fw-medium text-light">
+                        Abonə ol
+                    </h5>
+                    <p class="pt-2 pt-lg-5 pb-3 text-light opacity-75">
+                        Yeni məhsullardan ilk siz xəbərdar olmaq üçün aşağıya e-poçt ünvanınızı daxil edin.
+                    </p>
+                    <form>
+                        <div class="subscribe-form mb-5">
+                            <div class="position-relative form-group">
+                                <label class="position-absolute">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="2" y="3.7666" width="20" height="18" rx="4" stroke="white"
+                                            stroke-width="1.5" />
+                                        <path
+                                            d="M2 7.7666L9.50122 13.7676C10.9621 14.9363 13.0379 14.9363 14.4988 13.7676L22 7.7666"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </label>
+                                <input type="email" class="form-control custom-form" placeholder="E-poçtunuz">
+                                <button class="position-absolute btn btn-subscribe">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 8.49512L18 12.4951M18 12.4951L14 16.4951M18 12.4951L6 12.4951"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom-footer py-3">
+                    <div class="row">
+                        <div class="col-12 col-md-11">
+                            <p class="copyright text-light text-center mb-3 mb-lg-0">
+                                ©2024 “Thorium” MMC Bütün hüquqlar qorunur
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-1">
+                            <ul
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start text-light fs-6 social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <!-- Bootstrap -->
+    <script src="./assets/plugins/bootstrap/popper.min.js"></script>
+    <script src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- AOS animation -->
+    <script src="./assets/plugins/aos/aos.js"></script>
+    <!-- Swiper -->
+    <script src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+    <!-- Slide -->
+    <script src="./assets/js/slide.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
