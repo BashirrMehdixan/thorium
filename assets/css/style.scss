@@ -35,7 +35,8 @@ svg {
 }
 
 ul,
-p {
+p,
+h5 {
     padding: 0;
     margin: 0;
 }
@@ -764,7 +765,6 @@ textarea.custom-form {
     }
 }
 
-
 footer {
     background-color: #000;
 
@@ -1227,14 +1227,6 @@ main {
     }
 }
 
-// @media (max-width: 1185px) {
-//     .nav-menu {
-//         .container {
-// grid-template-columns: 270px calc(100% - 430px) 160px;
-//         }
-//     }
-// }
-
 @media only screen and (min-width: 993px) and (max-width: 1066px) {
     .nav-menu {
         .container {
@@ -1242,5 +1234,15 @@ main {
                 font-size: 12px;
             }
         }
+    }
+}
+
+
+.notfound-section {
+    height: 100vh;
+
+    .title-blue {
+        font-size: 150px;
+        color: #098DC4;
     }
 }

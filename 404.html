@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.css">
+    <!-- Aos animation -->
+    <link rel="stylesheet" href="./assets/plugins/aos/aos.css">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Thorium</title>
+</head>
+
+<body>
+    <div class="position-fixed rounded-5 up-icon">
+        <a href="#" class="w-100 h-100 d-flex align-items-center justify-content-center">
+            <svg width="28" height="13" viewBox="0 0 28 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.6672 11.1616L14.0006 1.82829L2.3339 11.1616" stroke="white" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Navbar start -->
+    <header class="position-relative">
+        <div class="nav-menu text-uppercase">
+            <div class="container">
+                <div class="d-flex align-items-center left-section">
+                    <a href="./index.html" class="logo active" id="header-logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <a href="tel:+99410 215 02 04" class="phone">+99410 215 02 04</a>
+                </div>
+                <nav>
+                    <ul class="d-flex navigation">
+                        <li>
+                            <a href="./catalog.html">kateqoriya</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#services">xidmətlər</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#partners">təmsilçiliklər</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#about">haqqımızda</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#contact">əlaqə</a>
+                        </li>
+                        <li class="d-lg-none">
+                            <form action="">
+                                <div class="input">
+                                    <input type="text" class="search-input" placeholder="Axtarış">
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="d-flex align-items-center justify-content-end right-section">
+                    <div class="align-items-center search">
+                        <div class="btn search-btn icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </svg>
+                        </div>
+                        <form action="">
+                            <div class="desk-input input">
+                                <input type="text" placeholder="Axtarış" class="nav-search">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="language">
+                        <div class="d-flex align-items-center current">
+                            <span>az</span>
+                            <div class="icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M7 10L12 14L17 10" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="languages">
+                            <a hre="#" class="d-flex align-items-center lang">en</a>
+                            <a href="#" class="d-flex align-items-center lang active">az</a>
+                            <a href="#" class="d-flex align-items-center lang">ru</a>
+                        </div>
+                    </div>
+                    <div class="align-items-center mobile-menu">
+                        <div class="hamburger">
+                            <button class="btn open-nav icon">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 12.8213H17" stroke="white" stroke-width="1.5" stroke-linecap="round">
+                                    </path>
+                                    <path d="M4 17.8213L20 17.8213" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round">
+                                    </path>
+                                    <path d="M4 7.82129L20 7.82129" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="btn close-nav icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.2426 7.75738L7.75732 16.2427M16.2426 16.2426L7.75732 7.75732"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar end -->
+
+    <main>
+        <section class="notfound-section d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 text-center">
+                        <h5 class="title-blue">
+                            404
+                        </h5>
+                        <p class="inner-text fs-6 mb-3">
+                            OOPS! NOTHING WAS FOUND
+                        </p>
+                        <a href="./index.html" class="btn btn-blue">
+                            Ana Səhifə
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer starts -->
+    <footer class="py-110 pb-1">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-start">
+                <div class="col-12 col-md-6 col-lg-1">
+                    <div class="footer-logo mb-5 mb-lg-0 mx-auto mx-md-0">
+                        <a href="./index.html">
+                            <img src="./assets/images/logo.png" class="w-100" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="fs-4 fw-medium text-light">
+                        Əlaqə
+                    </h5>
+                    <ul class="text-light contact-list pt-3 pt-lg-5">
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 16.7666L14.8529 17.502C15.1846 17.5684 15.5196 17.4045 15.6708 17.102L15 16.7666ZM8 9.7666L7.66459 9.09578C7.36208 9.24703 7.19824 9.58204 7.26456 9.91369L8 9.7666ZM8.35402 9.58959L8.68943 10.2604L8.68943 10.2604L8.35402 9.58959ZM9.31654 7.05796L10.0129 6.77942L9.31654 7.05796ZM8.50289 5.02382L7.80653 5.30236L8.50289 5.02382ZM19.7428 16.2637L19.4642 16.9601L19.7428 16.2637ZM17.7086 15.4501L17.9872 14.7537H17.9872L17.7086 15.4501ZM15.177 16.4126L15.8478 16.748V16.748L15.177 16.4126ZM16.25 11.7666C16.25 12.1808 16.5858 12.5166 17 12.5166C17.4142 12.5166 17.75 12.1808 17.75 11.7666H16.25ZM16.6955 10.2359L17.3884 9.94885L16.6955 10.2359ZM14.5307 8.07108L14.8177 7.37817L14.5307 8.07108ZM13 7.0166C12.5858 7.0166 12.25 7.35239 12.25 7.7666C12.25 8.18082 12.5858 8.5166 13 8.5166V7.0166ZM20.25 11.7666C20.25 12.1808 20.5858 12.5166 21 12.5166C21.4142 12.5166 21.75 12.1808 21.75 11.7666H20.25ZM20.391 8.70513L21.0839 8.41812L20.391 8.70513ZM16.0615 4.37557L16.3485 3.68266V3.68266L16.0615 4.37557ZM13 3.0166C12.5858 3.0166 12.25 3.35239 12.25 3.7666C12.25 4.18082 12.5858 4.5166 13 4.5166V3.0166ZM20.25 18.1207V19.7666H21.75V18.1207H20.25ZM5 4.5166H6.64593V3.0166H5V4.5166ZM15 16.7666C15.1471 16.0312 15.1473 16.0312 15.1475 16.0312C15.1476 16.0313 15.1477 16.0313 15.1479 16.0313C15.1481 16.0314 15.1483 16.0314 15.1484 16.0314C15.1487 16.0315 15.1488 16.0315 15.1488 16.0315C15.1488 16.0315 15.1482 16.0314 15.147 16.0311C15.1447 16.0306 15.14 16.0297 15.1331 16.0281C15.1193 16.0251 15.0967 16.0199 15.0659 16.0125C15.0044 15.9975 14.9104 15.9732 14.7898 15.9377C14.5482 15.8666 14.2016 15.7513 13.7954 15.5772C12.9796 15.2276 11.9439 14.6499 11.0303 13.7363L9.96967 14.7969C11.0561 15.8833 12.2704 16.5556 13.2046 16.956C13.6734 17.1569 14.0768 17.2916 14.3665 17.3768C14.5115 17.4194 14.6285 17.4498 14.7114 17.47C14.7529 17.4801 14.7859 17.4876 14.8097 17.4929C14.8217 17.4955 14.8313 17.4976 14.8385 17.4991C14.8421 17.4998 14.8451 17.5005 14.8475 17.5009C14.8487 17.5012 14.8498 17.5014 14.8507 17.5016C14.8511 17.5017 14.8515 17.5018 14.8519 17.5018C14.8521 17.5019 14.8523 17.5019 14.8524 17.5019C14.8527 17.502 14.8529 17.502 15 16.7666ZM11.0303 13.7363C10.1167 12.8227 9.53901 11.787 9.18936 10.9712C9.01527 10.565 8.89996 10.2184 8.8289 9.97685C8.79342 9.85622 8.76912 9.76225 8.75414 9.70067C8.74666 9.66989 8.74151 9.64725 8.73847 9.63348C8.73695 9.62659 8.73595 9.62192 8.73546 9.61956C8.73521 9.61838 8.73509 9.61778 8.73508 9.61777C8.73508 9.61776 8.73511 9.61791 8.73517 9.6182C8.7352 9.61834 8.73524 9.61852 8.73528 9.61874C8.7353 9.61885 8.73534 9.61905 8.73535 9.6191C8.73539 9.6193 8.73544 9.61951 8 9.7666C7.26456 9.91369 7.26461 9.91392 7.26466 9.91416C7.26468 9.91425 7.26473 9.9145 7.26477 9.91469C7.26484 9.91506 7.26492 9.91547 7.26501 9.91592C7.2652 9.91682 7.26541 9.91787 7.26566 9.91907C7.26615 9.92148 7.26677 9.92449 7.26753 9.92811C7.26905 9.93533 7.27111 9.94494 7.27374 9.95686C7.279 9.98068 7.28655 10.0137 7.29664 10.0552C7.31682 10.1381 7.34721 10.2551 7.38985 10.4001C7.47504 10.6898 7.60973 11.0932 7.81064 11.562C8.21099 12.4962 8.88325 13.7105 9.96967 14.7969L11.0303 13.7363ZM8.33541 10.4374L8.68943 10.2604L8.01861 8.91877L7.66459 9.09578L8.33541 10.4374ZM10.0129 6.77942L9.19925 4.74528L7.80653 5.30236L8.62018 7.3365L10.0129 6.77942ZM20.0213 15.5674L17.9872 14.7537L17.4301 16.1464L19.4642 16.9601L20.0213 15.5674ZM14.5062 16.0772L14.3292 16.4312L15.6708 17.102L15.8478 16.748L14.5062 16.0772ZM17.9872 14.7537C16.6592 14.2225 15.1458 14.7979 14.5062 16.0772L15.8478 16.748C16.1386 16.1665 16.8265 15.905 17.4301 16.1464L17.9872 14.7537ZM8.68943 10.2604C9.96868 9.62079 10.5441 8.10736 10.0129 6.77942L8.62018 7.3365C8.86163 7.94011 8.60008 8.62803 8.01861 8.91877L8.68943 10.2604ZM6.64593 4.5166C7.15706 4.5166 7.6167 4.82779 7.80653 5.30236L9.19925 4.74528C8.78162 3.70122 7.77042 3.0166 6.64593 3.0166V4.5166ZM21.75 18.1207C21.75 16.9962 21.0654 15.985 20.0213 15.5674L19.4642 16.9601C19.9388 17.1499 20.25 17.6095 20.25 18.1207H21.75ZM19 21.0166C10.5777 21.0166 3.75 14.1889 3.75 5.7666H2.25C2.25 15.0174 9.74923 22.5166 19 22.5166V21.0166ZM19 22.5166C20.5188 22.5166 21.75 21.2854 21.75 19.7666H20.25C20.25 20.457 19.6904 21.0166 19 21.0166V22.5166ZM3.75 5.7666C3.75 5.07625 4.30964 4.5166 5 4.5166V3.0166C3.48122 3.0166 2.25 4.24782 2.25 5.7666H3.75ZM17.75 11.7666C17.75 11.1428 17.6271 10.5252 17.3884 9.94885L16.0026 10.5229C16.1659 10.9172 16.25 11.3398 16.25 11.7666H17.75ZM17.3884 9.94885C17.1497 9.37256 16.7998 8.84892 16.3588 8.40784L15.2981 9.4685C15.5999 9.77029 15.8393 10.1286 16.0026 10.5229L17.3884 9.94885ZM16.3588 8.40784C15.9177 7.96677 15.394 7.61688 14.8177 7.37817L14.2437 8.76399C14.638 8.92732 14.9963 9.16671 15.2981 9.4685L16.3588 8.40784ZM14.8177 7.37817C14.2415 7.13946 13.6238 7.0166 13 7.0166V8.5166C13.4268 8.5166 13.8494 8.60067 14.2437 8.76399L14.8177 7.37817ZM21.75 11.7666C21.75 10.6175 21.5237 9.47972 21.0839 8.41812L19.6981 8.99215C20.0625 9.87176 20.25 10.8145 20.25 11.7666H21.75ZM21.0839 8.41812C20.6442 7.35652 19.9997 6.39193 19.1872 5.57942L18.1265 6.64008C18.7997 7.3133 19.3338 8.11254 19.6981 8.99215L21.0839 8.41812ZM19.1872 5.57942C18.3747 4.7669 17.4101 4.12238 16.3485 3.68266L15.7745 5.06847C16.6541 5.43282 17.4533 5.96685 18.1265 6.64008L19.1872 5.57942ZM16.3485 3.68266C15.2869 3.24293 14.1491 3.0166 13 3.0166V4.5166C13.9521 4.5166 14.8948 4.70413 15.7745 5.06847L16.3485 3.68266Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <a href="tel:+99410 215 02 04" class="opacity">+99410 215 02 04</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-1">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3.7666" width="20" height="18" rx="4" stroke="white"
+                                        stroke-width="1.5" />
+                                    <path
+                                        d="M2 7.7666L9.50122 13.7676C10.9621 14.9363 13.0379 14.9363 14.4988 13.7676L22 7.7666"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <a href="mailto:info@thorium.az" class="opacity">info@thorium.az</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+                            <span class="me-3 fs-5">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="11.7666" r="3" stroke="white" stroke-width="1.5" />
+                                    <path
+                                        d="M21 11.6555C21 16.5647 15.375 22.7666 12 22.7666C8.625 22.7666 3 16.5647 3 11.6555C3 6.74629 7.02944 2.7666 12 2.7666C16.9706 2.7666 21 6.74629 21 11.6555Z"
+                                        stroke="white" stroke-width="1.5" />
+                                </svg>
+                            </span>
+                            <span class="opacity">
+                                SPORT PLAZA
+                                Heydər Əliyev 115
+                                Bakı, Azərbaycan, AZ 1029
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5 class="fs-4 fw-medium text-light mt-5 mt-lg-0">
+                        Sürətli keçid
+                    </h5>
+                    <ul class="text-light opacity-75 pt-3 pt-lg-5 footer-menu">
+                        <li class="mb-2">
+                            <a href="./index.html">Ana səhifə</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./catalog.html">Kataloq</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#services">Xidmətlər</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#partners">Təmsilçiliklər</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="./index.html#about">Haqqımızda</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="./index.html#contact">Əlaqə</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h5 class="fs-4 fw-medium text-light">
+                        Abonə ol
+                    </h5>
+                    <p class="pt-2 pt-lg-5 pb-3 text-light opacity-75">
+                        Yeni məhsullardan ilk siz xəbərdar olmaq üçün aşağıya e-poçt ünvanınızı daxil edin.
+                    </p>
+                    <form>
+                        <div class="subscribe-form mb-5">
+                            <div class="position-relative form-group">
+                                <label class="position-absolute">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="2" y="3.7666" width="20" height="18" rx="4" stroke="white"
+                                            stroke-width="1.5" />
+                                        <path
+                                            d="M2 7.7666L9.50122 13.7676C10.9621 14.9363 13.0379 14.9363 14.4988 13.7676L22 7.7666"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </label>
+                                <input type="email" class="form-control custom-form" placeholder="E-poçtunuz">
+                                <button class="position-absolute btn btn-subscribe">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 8.49512L18 12.4951M18 12.4951L14 16.4951M18 12.4951L6 12.4951"
+                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="bottom-footer py-3">
+                    <div class="row">
+                        <div class="col-12 col-md-11">
+                            <p class="copyright text-light text-center mb-3 mb-lg-0">
+                                ©2024 “Thorium” MMC Bütün hüquqlar qorunur
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-1">
+                            <ul
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start text-light fs-6 social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <!-- Bootstrap -->
+    <script src="./assets/plugins/bootstrap/popper.min.js"></script>
+    <script src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- AOS animation -->
+    <script src="./assets/plugins/aos/aos.js"></script>
+    <!-- Swiper -->
+    <script src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+    <!-- Slide -->
+    <script src="./assets/js/slide.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

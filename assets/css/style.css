@@ -31,7 +31,8 @@ svg {
 }
 
 ul,
-p {
+p,
+h5 {
   padding: 0;
   margin: 0;
 }
@@ -971,4 +972,11 @@ main.bg-detail {
   .nav-menu .container a {
     font-size: 12px;
   }
+}
+.notfound-section {
+  height: 100vh;
+}
+.notfound-section .title-blue {
+  font-size: 150px;
+  color: #098DC4;
 }
