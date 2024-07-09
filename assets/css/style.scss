@@ -541,8 +541,20 @@ svg {
         background-repeat: no-repeat;
         background-position: center;
 
-        .inner-text {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+
+        p {
             font-size: 20px;
+            padding-top: .8rem;
+            padding-bottom: .8rem;
             padding-right: 3.8rem;
         }
     }
@@ -700,22 +712,21 @@ svg {
 
     .gallery-item {
 
-        video {
-            width: 100%;
-        }
-
-        .btn-play {
-            display: none;
+        .hover-div {
             position: absolute;
-            font-size: 35px;
-            color: #fff;
-            left: 45%;
-            top: 45%;
-            transform: translate(-35%, -36%);
-            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.4);
 
-            svg {
-                transform: scale(2);
+            .btn-play {
+                display: block;
+                width: 55px;
+                height: 55px;
             }
         }
     }
@@ -1129,6 +1140,12 @@ main {
 
     .banner-section {
         min-height: 500px;
+
+        .banner-item {
+            p {
+                font-size: 16px;
+            }
+        }
     }
 
     .servicesSwiper {
@@ -1184,12 +1201,18 @@ main {
         }
 
         .banner-item {
-            .banner-title {
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
                 margin-top: 50px;
                 font-size: 25px;
             }
 
-            .inner-text {
+            p {
                 padding-right: 0;
             }
         }
@@ -1221,7 +1244,12 @@ main {
             }
         }
 
-        .banner-title {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-size: 25px !important;
         }
     }

@@ -444,8 +444,19 @@ svg {
   background-repeat: no-repeat;
   background-position: center;
 }
-.banner-section .banner-item .inner-text {
+.banner-section .banner-item h1,
+.banner-section .banner-item h2,
+.banner-section .banner-item h3,
+.banner-section .banner-item h4,
+.banner-section .banner-item h5,
+.banner-section .banner-item h6 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.banner-section .banner-item p {
   font-size: 20px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-right: 3.8rem;
 }
 
@@ -573,21 +584,21 @@ svg {
 .video-gallery-section.bg-img {
   background-size: 600px 650px;
 }
-.video-gallery-section .gallery-item video {
-  width: 100%;
-}
-.video-gallery-section .gallery-item .btn-play {
-  display: none;
+.video-gallery-section .gallery-item .hover-div {
   position: absolute;
-  font-size: 35px;
-  color: #fff;
-  left: 45%;
-  top: 45%;
-  transform: translate(-35%, -36%);
-  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.video-gallery-section .gallery-item .btn-play svg {
-  transform: scale(2);
+.video-gallery-section .gallery-item .hover-div .btn-play {
+  display: block;
+  width: 55px;
+  height: 55px;
 }
 
 .contact-section .bg-gray {
@@ -903,6 +914,9 @@ main.bg-detail {
   .banner-section {
     min-height: 500px;
   }
+  .banner-section .banner-item p {
+    font-size: 16px;
+  }
   .servicesSwiper .swiper-button-prev,
   .servicesSwiper .swiper-button-next {
     top: 53%;
@@ -936,11 +950,16 @@ main.bg-detail {
   .banner-section .container {
     width: 90%;
   }
-  .banner-section .banner-item .banner-title {
+  .banner-section .banner-item h1,
+  .banner-section .banner-item h2,
+  .banner-section .banner-item h3,
+  .banner-section .banner-item h4,
+  .banner-section .banner-item h5,
+  .banner-section .banner-item h6 {
     margin-top: 50px;
     font-size: 25px;
   }
-  .banner-section .banner-item .inner-text {
+  .banner-section .banner-item p {
     padding-right: 0;
   }
   .bg-img,
@@ -964,7 +983,12 @@ main.bg-detail {
   .servicesSwiper .swiper-button-next::after {
     font-size: 20px;
   }
-  .servicesSwiper .banner-title {
+  .servicesSwiper h1,
+  .servicesSwiper h2,
+  .servicesSwiper h3,
+  .servicesSwiper h4,
+  .servicesSwiper h5,
+  .servicesSwiper h6 {
     font-size: 25px !important;
   }
 }

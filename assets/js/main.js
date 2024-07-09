@@ -94,6 +94,6 @@ videos.forEach(video => {
     });
 });
 
-
+Fancybox.bind("[data-fancybox]");
 
 AOS.init();
