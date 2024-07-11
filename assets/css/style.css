@@ -254,6 +254,9 @@ svg {
 .nav-menu .container nav .navigation {
   gap: 35px;
 }
+.nav-menu .container nav .navigation li {
+  min-width: max-content;
+}
 .nav-menu .container nav .navigation li a {
   position: relative;
   padding: 4px 0;
@@ -426,6 +429,9 @@ svg {
 .contact-links.active li path, .contact-links.section-links li path {
   stroke: #000;
 }
+.contact-links.active li:nth-child(2) svg path:nth-child(2)[fill], .contact-links.section-links li:nth-child(2) svg path:nth-child(2)[fill] {
+  fill: transparent;
+}
 .contact-links.active li:hover, .contact-links.section-links li:hover {
   border-color: #fff;
   background-color: #0A9DDA;
@@ -534,6 +540,7 @@ svg {
   height: 45px;
   border: 1px solid #fff;
   border-radius: 50%;
+  top: 53%;
 }
 .servicesSwiper .swiper-button-prev.swiper-button-next,
 .servicesSwiper .swiper-button-next.swiper-button-next {
@@ -697,9 +704,19 @@ main.bg-catalog {
   background-repeat: no-repeat;
   background-position: 100% 115px, bottom right;
 }
+main.bg-category {
+  background-image: url(../images/background/atom-pattern.png);
+  background-size: 450px 640px;
+  background-repeat: no-repeat;
+  background-position: 100% 115px;
+}
 main.bg-detail {
   background-size: 450px 640px, 450px 640px;
   background-position: 100% -7px, bottom right;
+}
+
+.search-section {
+  background-size: 570px 640px;
 }
 
 .catalog-section .category-block:not(:first-child) {

@@ -286,6 +286,8 @@ svg {
                 gap: 35px;
 
                 li {
+                    min-width: max-content;
+
                     a {
                         position: relative;
                         padding: 4px 0;
@@ -519,6 +521,14 @@ svg {
                 stroke: #000;
             }
 
+            &:nth-child(2) {
+                svg {
+                    path:nth-child(2)[fill] {
+                        fill: transparent;
+                    }
+                }
+            }
+
             &:hover {
                 border-color: #fff;
                 background-color: #0A9DDA;
@@ -650,6 +660,7 @@ svg {
         height: 45px;
         border: 1px solid #fff;
         border-radius: 50%;
+        top: 53%;
 
         &.swiper-button-next {
             right: 40px;
@@ -854,15 +865,24 @@ main {
         background-position: 100% 115px, bottom right;
     }
 
+    &.bg-category {
+        background-image: url(../images/background/atom-pattern.png);
+        background-size: 450px 640px;
+        background-repeat: no-repeat;
+        background-position: 100% 115px;
+    }
+
     &.bg-detail {
         background-size: 450px 640px, 450px 640px;
         background-position: 100% -7px, bottom right;
     }
 }
 
+.search-section {
+    background-size: 570px 640px;
+}
+
 .catalog-section {
-
-
     .category-block {
         &:not(:first-child) {
             margin-top: 130px;
@@ -1264,7 +1284,6 @@ main {
         }
     }
 }
-
 
 .notfound-section {
     height: 100vh;
